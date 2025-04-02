@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 12vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 0 10px;
+}
+.logo img{
+    max-width: 170px; 
+    height: auto;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    padding: 0 10px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.media i{
+    color: turquoise;
+    font-size: 15px;
+    margin: 0 20px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.img {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../member/IMAGE/home_main1.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    /* justify-content : space-around;  */
+}  
+.btn{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    padding: 10px;
+    cursor: pointer;
+    border: none; 
+    margin-left: 110px;
+}
+
+.img_heading{
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 110px;
+}
+.img_para{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 110px;
+    padding: 10px;
+    color: white
+}
+.img_btn1{
+    background-color: lightseagreen;
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    padding: 10px;
+    cursor: pointer;
+    border: none; 
+    margin-left: 110px;
+}
+.img_btn2{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    padding: 10px;
+    cursor: pointer;
+    border: none; 
+    margin-left: 60px;
+}
+.div_section {
+    background-image: url(../member/IMAGE/white_background.jpg);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 70px;
+    justify-content: center; /* Ensures content is centered */
+    align-items: center; /* Aligns divs properly */
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 70px;
+    /*margin: 0 auto;  Centering the section */
+    max-width: 1200px; /* Prevents excessive width */
+}
+
+.information, .info_big {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.information img, .info_big img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    max-width: 300px; /* Ensures images don't stretch too much */
+    display: block;
+    margin: 0 auto;
+}
+
+.information h2, .info_big h6 {
+    margin: 10px 0;
+}
+
+.info_big h6 {
+    border-radius: 5px;
+    background-color: #a09e9e;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .div_section, .info {
+        grid-template-columns: 1fr; /* Single column on small screens */
+        padding: 10px;
+    }
+}
+
+progress {
+    width: 100%;
+    height: 25px;
+    appearance: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+progress::-webkit-progress-value {
+    background-color: turquoise;
+    border-radius: 8px;
+}
+
+progress::-moz-progress-bar {
+    background-color: turquoise;
+    border-radius: 8px;
+}
+
+.progress-container {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.progress-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.section3{
+    width: 100%;
+    height: 70vh;
+   background-color: #a09e9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.last-info{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../member/IMAGE/footer_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.last-container{
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    color: white;
+    background: none;
+}
+.last-container ul{
+    list-style-type: none;
+}
+.last-container ul li{
+    margin: 10px;
+    color: lightslategray;
+}
+.last-container h3 span{
+    color: turquoise;
+   
+}
+.last-container p{
+    text-align: justify;
+    color: lightslategray;
+}
+.last-container ul li i{
+    color: lightseagreen;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.last-container img{
+    max-width: 170px; 
+    height: auto;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+.footer span{
+    color: turquoise;
+}

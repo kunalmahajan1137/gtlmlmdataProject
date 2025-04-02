@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/WEB-INF/web.xml</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/EditProfileServlet.java</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/style.css</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/ViewProfileServlet.java</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/LogoutServlet.java</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/login.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/LoginServlet.java</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/edit_profile.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/View_profile.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/register.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/NomineeDetails.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/UploadKYCServlet.java</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/Upload_KYC.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/ChangePasswordServlet.java</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/account.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/navbar.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/topnavbar.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/Change_member_password.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/web/member/cpwelcomeletter.jsp</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/WelcomeServlet.java</file>
+            <file>file:/D:/GTL%20Software/GTL_PROJECT/GTLMLM/src/java/com/servlet/NomineeKYCDetailsServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

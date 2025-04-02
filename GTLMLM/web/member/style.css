@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+body{
+background:#f7f7f7;
+}
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+}
+
+h5{
+font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.active{
+ background-color: #34495E;
+}
+/* Sidebar Styles */
+#sidebar {
+min-width: 250px;
+max-width: 250px;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+background-color:#13274F;
+overflow-y: auto;
+transition: margin-left 0.3s;
+z-index: 1; /* Lower z-index for the sidebar */
+
+}
+
+#sidebar.collapsed {
+margin-left: -250px; /* Fully hide sidebar */
+margin-top:53.5px;
+}
+
+.content {
+margin-left: 250px; /* Ensure content is aligned with sidebar */
+transition: margin-left 0.3s;
+}
+
+.content.collapsed {
+margin-left: 0; /* Align content when sidebar is hidden */
+}
+
+/* Navbar Styles */
+.navbar{
+    /*position:fixed;*/
+    /*z-index: 1;*/
+}
+
+.text-light{
+   color: #ffffff !important; 
+}
+
+.content {
+width: 100%;
+padding: 0;
+margin-left: 250px;
+transition: all 0.3s;
+}
+
+.content .navbar {
+border-bottom: 1px solid #ddd;
+}
+
+.content .navbar .btn {
+background-color: #3498db;
+}
+
+.bg-teal {
+background-color: #00b894;
+}
+
+#accountSubmenu,#Incomemenubtn,#MyTeammenubtn,#Paymentbtn,#Rewardbtn{
+    background-color: #2E5090;
+}
+
+
+#sidebar ul.components {
+padding: 0;
+}
+
+#sidebar ul li a {
+padding: 10px 15px;
+font-size: 1.1em;
+display: block;
+color:#fff !important;
+}
+
+#sidebar ul li a:hover {
+background:#34495E;
+color: #ffffff;
+text-decoration: none;
+}
+
+.content {
+margin-left: 250px;
+transition: all 0.3s;
+}
+
+
+.content-wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100vh; /* Full viewport height */
+}
+
+.btn-info-bg{
+background:white !important;
+}
+.fa-bars{
+
+}
+.gradient-card-blue {
+background: linear-gradient(to right, #ff9966 0, #ff5e62 100%);
+color: white;
+}
+
+.gradient-card-orange {
+    background-color: #b3811e;
+    transition: background 0.3s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; /* Optional for rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color:white;
+}
+
+.gradient-card-orange:hover {
+    background: linear-gradient(to top, orange, #f1c232);
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0 8px 15px #ef7f1a; /* More pronounced shadow on hover */
+}
+
+
+.gradient-card-green {
+background: linear-gradient(to right, #ff9966 0, #ff5e62 100%);
+color: white;
+}
+
+.gradient-card-orange {
+    background: linear-gradient(135deg, #b3811e, #ffa726);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.gradient-card-orange:hover {
+    background: linear-gradient(135deg, #ffa726, #ff9800);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.bi-person-circle {
+    transition: transform 0.3s;
+}
+
+.card:hover .bi-person-circle {
+    transform: rotate(20deg) scale(1.1);
+}
+
+
+
+footer a {
+color: red;
+}
+
+
+.content-center{
+    margin-top:5px;
+    margin-bottom:80px;
+}
+
+
+    /* Responsive Styles */
+@media (max-width: 768px) {
+#sidebar {
+    margin-left: -250px; /* Sidebar hidden by default */
+    margin-top: 40px;
+}
+
+#sidebar.collapsed {
+    margin-left: 0; /* Show sidebar when collapsed class is added */
+}
+
+.content {
+    margin-left: 0; /* Align content when sidebar is hidden */
+}
+
+footer{
+background-color: #13274F;
+padding-top: 10px;
+padding-bottom: 0px;
+position:fixed;
+bottom:0;
+width:100%;
+}
+footer p {
+color: #6c757d;
+}
+
+}
+.bg-light-bg{
+/*background-image: url("https://t3.ftcdn.net/jpg/04/33/77/24/360_F_433772477_frItEznzPpcb77TtUCfBhsWr9l8ErVPM.jpg");*/
+background:#13274F;
+background-repeat: no-repeat;
+width: 100%;
+background-size: cover;
+         /*background-color: #1b2631;*/
+    }
+.bg-dark-bg{
+        /*background-image: url("https://t3.ftcdn.net/jpg/04/33/77/24/360_F_433772477_frItEznzPpcb77TtUCfBhsWr9l8ErVPM.jpg");*/
+background-repeat: no-repeat;
+width: 100%;
+background-size: cover;
+background:#13274F;
+         /*background-color: #212f3c;*/
+    }.fa-brands {
+
+}
